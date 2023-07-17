@@ -8,7 +8,7 @@
 /* Header styles  */
 header{
     background-color: rgba(255, 144, 14, 0.10);
-    /* padding: 10px 240px; */
+    padding: 10px;
     width: 100vw;
 }
 nav{
@@ -60,7 +60,33 @@ nav li{
 }
 .banner-desc{
     color: rgba(114, 114, 114, 1);
+    padding: 20px;
 }
 .banner>img{
     width: 80%;
+}
+/* Responsive header section  */
+/* For mobile devices  */
+@media screen and (max-width:576px) {
+    header{
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+}
+/* For medium devices  */
+@media screen and (min-width:577px) and (max-width:960px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+    }
 }
