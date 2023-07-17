@@ -1,5 +1,45 @@
+/* Importing work sans font  */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins&family=Roboto:wght@400;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 *{
     font-family: 'Work Sans', sans-serif;;
+}
+/* Header styles  */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 10px 240px;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(66, 66, 66, 1);
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: rgba(19, 19, 19, 1);
+}
+/* banner styles  */
+.banner{
+
+}
+.banner-content{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.btn-primary{
+    
 }
