@@ -22,9 +22,9 @@ nav>ul{
 }
 nav li{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 35px;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     color: rgba(66, 66, 66, 1);
 }
 .nav-title{
@@ -64,6 +64,7 @@ nav li{
 }
 .banner>img{
     width: 80%;
+    padding-bottom: 30px;
 }
 /* Responsive header section  */
 /* For mobile devices  */
@@ -89,4 +90,40 @@ nav li{
     header{
         padding: 50px;
     }
+}
+/* Main styles  */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.teams{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.quick-list{
+    padding-right: 70px;
+    padding-left: 40px;
+}
+.quick-list-title{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #727272;
+}
+.t2{
+    color: #131313;
+    font-weight: 700;
+}
+.t3{
+    color: #FF900E;
+    font-weight: 700;
+}
+.quick-list-para{
+    color: rgba(114, 114, 114, 1);
 }
