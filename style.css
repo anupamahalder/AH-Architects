@@ -251,7 +251,7 @@ footer p{
     .sponsors-img-container{
         flex-direction: column;
     }
-    .feature-img{
+    .feature-img-container{
         width: 90%;
         margin: 0 10px;
     }
@@ -282,5 +282,8 @@ footer p{
     .feature-img{
         width: 90%;
         margin: 0 10px;
+    }
+    .ten-years-badge{
+        margin-left: 30px;
     }
 }
