@@ -216,7 +216,9 @@ footer p{
     color: rgba(66, 66, 66, 1);
     font-size: 1.2rem;
 }
-
+.card img{
+    margin-top: 10px;
+}
 /* Responsive header section  */
 /* For mobile devices  */
 @media screen and (max-width:576px) {
